@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,42 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.copyright{
+  font-size: small;
+  font-style: italic;
+}
+
+.agreement{
+  display: flex;
+  color:'brown';
+  font-size: small;
+}
+
+.cardLogin{
+  width: calc(30%)
+}
+
+@media screen and (min-width: 480px) {
+  .cardLogin{
+    width: calc(80%)
+  }
+}
+@media screen and (max-width: 480px) {
+  .cardLogin{
+    width: calc(80%)
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cardLogin{
+    width: calc(50%)
+  }
+}
+
+@media screen and (min-width: 748px) {
+  .cardLogin{
+    width: calc(30%)
+  }
 }
